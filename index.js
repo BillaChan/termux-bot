@@ -12,24 +12,24 @@ const speed = require('performance-now');
 
 //Setting
 
-const apivhtear = 'apikey';
-const apibarbar = 'apikey';
-const tobzkey = 'apikey';
-const BotName = 'Lexa';
-const wa = 'https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst';
-const eror = 'Info fitur Error';
-const ow = 'Mrf.zvx';
-const nomorowner = '082223014661';
-const ovo = '082223014661';
-const pulsa = '082223014661';
-const dana = '082223014661';
-const instagram = 'http://www.instagram.com/mrf.zvx';
+const apivhtear = '7728hhgsYRTtjah2837';
+const apibarbar = 'Nkwp9oR7Eg9yyKbejBpm';
+const tobzkey = 'BotWeA';
+const BotName = 'Yoks';
+const wa = 'https://chat.whatsapp.com/GcHB3sosWE03OoE55c4yJ7';
+const eror = 'Sticker';
+const ow = '*Abel*';
+const nomorowner = '088706650883';
+const gopay = '085641345088';
+const pulsa = '085641345088';
+const dana = '085641345088';
+const instagram = 'http://www.instagram.com/bel_abelll19';
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
-  + 'FN:Mrf.zvx\n' // Nama kamu
-  + 'ORG:Lexa;\n' // Nama bot
-  + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+  + 'FN:Abel\n' // Nama kamu
+  + 'ORG:Yoks;\n' // Nama bot
+  + 'TEL;type=CELL;type=VOICE;waid=6285641345088:+62 856-4134-5088\n' //Nomor whatsapp kamu
   + 'END:VCARD'
 //
 const
@@ -64,7 +64,7 @@ conn.on('qr', qr => {
     {
       small: true
     });
-  console.log(`[ ${moment().format("HH:mm:ss")} ] Arelbot Ready scan now!`);
+  console.log(`[ ${moment().format("HH:mm:ss")} ] Scan Qr Nya`);
 });
 
 conn.on('credentials-updated', () => {
@@ -84,7 +84,7 @@ conn.on('message-status-update', json => {
 })
 setInterval(function () {
   for (i = 0; i < 3; i++) {
-    console.log(`[ ${moment().format("HH:mm:ss")} ] => HI! I'm lexa :)`)
+    console.log(`[ ${moment().format("HH:mm:ss")} ] => HI! I'm Yoks :)`)
   }
 }, 15000)
 
@@ -425,7 +425,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
 *Pulsa :* _${pulsa}_
 *Dana :* _${dana}_
-*OVO :* _${ovo}_`, MessageType.text, { quoted: m });
+*GoPay :* _${gopay}_`, MessageType.text, { quoted: m });
   }
 
   //Informasi
@@ -463,15 +463,15 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ╔════════════════════
 ║──────〘  *Intro* 〙───────
 ╠════════════════════
-╠≽️ *Nama*
-╠≽️ *Umur*
-╠≽️ *Asal Kota*
-╠≽️ *Gender*
+╠≽️ *Nama*:
+╠≽️ *Umur*:
+╠≽️ *Asal Kota*:
+╠≽️ *Gender*:
 ╠════════════════════
-║──────── *Lexa* ──────── 
+║──────── *Yoks* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-║──────── *Lexa* ────────
+║──────── *Yoks* ────────
 ╠════════════════════
 ╠════════════════════` , MessageType.text);
   }
@@ -520,11 +520,11 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
   //Nulis dibuku
   if (text.includes('.Nulis')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .nulis Lexa love udan_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .nulis Yoks love udan_', MessageType.text, { quoted: m });
   }
   //Pengucapan ulang
   if (text.includes('.Say')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .say Lexa gans_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .say Yoks Lucu_', MessageType.text, { quoted: m });
   }
   if (text.includes(".say")) {
     const teks = text.replace(/.say /, "")
@@ -622,7 +622,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
   //Text thunder
   if (text.includes('.Thunder')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .thunder Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .thunder Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.thunder')) {
     const teks = text.replace(/.thunder /, "")
@@ -639,7 +639,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand1')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand1 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand1 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand1')) {
     const teks = text.replace(/.sand1 /, "")
@@ -656,7 +656,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Neon3d')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon3d Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon3d Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.neon3d')) {
     const teks = text.replace(/.neon3d /, "")
@@ -673,7 +673,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Blackpink')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Blackpink Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Blackpink Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.blackpink')) {
     const teks = text.replace(/.blackpink /, "")
@@ -691,7 +691,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
 
   if (text.includes('.Cloud')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .cloud Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .cloud Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.cloud')) {
     const teks = text.replace(/.cloud /, "")
@@ -708,7 +708,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sky')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sky Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sky Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.sky')) {
     const teks = text.replace(/.sky /, "")
@@ -725,7 +725,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand2')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand2 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand2 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand2')) {
     const teks = text.replace(/.sand2 /, "")
@@ -742,7 +742,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand3')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand3 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand3 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand3')) {
     const teks = text.replace(/.sand3 /, "")
@@ -759,7 +759,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand4')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand4 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand4 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand4')) {
     const teks = text.replace(/.sand4 /, "")
@@ -776,7 +776,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Balon')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .balon Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .balon Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.balon')) {
     const teks = text.replace(/.balon /, "")
@@ -793,7 +793,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Metal')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .metal Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .metal Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.metal')) {
     const teks = text.replace(/.metal /, "")
@@ -810,7 +810,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Old')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .old Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .old Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.old')) {
     const teks = text.replace(/.old /, "")
@@ -827,7 +827,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Holo')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .holo Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .holo Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.holo')) {
     const teks = text.replace(/.holo /, "")
@@ -846,7 +846,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
 
   if (text.includes('.Coding')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .coding Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .coding Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.coding')) {
     const teks = text.replace(/.coding /, "")
@@ -894,7 +894,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
 
   if (text.includes('.Neon4')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon4 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon4 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.neon4')) {
     const teks = text.replace(/.neon4 /, "")
@@ -911,7 +911,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Neon5')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon5 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon5 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.neon5')) {
     const teks = text.replace(/.neon5 /, "")
@@ -1091,7 +1091,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Rate')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .rate seberapa ganteng lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .rate seberapa ganteng Yoks_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.rate')) {
@@ -1202,7 +1202,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Paper1')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .paper1 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .paper1 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.paper1')) {
     const teks = text.replace(/.paper1 /, "")
@@ -1219,7 +1219,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Block')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .block Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .block Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.block')) {
     const teks = text.replace(/.block /, "")
@@ -1236,7 +1236,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Heart')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .heart Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .heart Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.heart')) {
     const teks = text.replace(/.heart /, "")
@@ -1253,7 +1253,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Grass')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .grass Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .grass Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.grass')) {
     const teks = text.replace(/.grass /, "")
@@ -1270,7 +1270,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Ocean')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ocean Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ocean Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.ocean')) {
     const teks = text.replace(/.ocean /, "")
@@ -1287,7 +1287,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Board')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .board Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .board Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.board')) {
     const teks = text.replace(/.board /, "")
@@ -1304,7 +1304,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Mwolf')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .mwolf Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .mwolf Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.mwolf')) {
     const teks = text.replace(/.mwolf /, "")
@@ -1321,7 +1321,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Mglow')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .mglow Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .mglow Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.mglow')) {
     const teks = text.replace(/.mglow /, "")
@@ -1338,7 +1338,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Bit8')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bit8 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bit8 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.bit8')) {
     const gh = text.split(".but8 ")[1];
@@ -1357,7 +1357,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Hpotter')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Hpotter Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Hpotter Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.hpotter')) {
     const teks = text.replace(/.hpotter /, "")
@@ -1374,7 +1374,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Pubg')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .pubg Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .pubg Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.pubg')) {
     const gh = text.split(".pubg ")[1];
@@ -1393,7 +1393,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Cfire')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Cfire Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Cfire Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.cfire')) {
     const teks = text.replace(/.cfire /, "")
@@ -1410,7 +1410,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Wface1')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Wface1 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Wface1 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.wface1')) {
     const teks = text.replace(/.wface1 /, "")
@@ -1427,7 +1427,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Wface2')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Wface2 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Wface2 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.wface2')) {
     const teks = text.replace(/.wface2 /, "")
@@ -1444,7 +1444,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Battlef')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Battlef Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Battlef Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.batllef')) {
     const gh = text.split(".battlef ")[1];
@@ -1463,7 +1463,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Lol')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .lol Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .lol Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.lol')) {
     const teks = text.replace(/.lol /, "")
@@ -1480,7 +1480,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Csgo')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .csgo Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .csgo Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.csgo')) {
     const teks = text.replace(/.csgo /, "")
@@ -1497,7 +1497,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Owatch')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Owatch Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Owatch Yoks_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.owatch')) {
@@ -1531,7 +1531,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Paper2')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .paper2 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .paper2 Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.paper2')) {
     const teks = text.replace(/.paper2 /, "")
@@ -1548,7 +1548,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Coffee')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .coffee Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .coffee Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.coffee')) {
     const teks = text.replace(/.coffee /, "")
@@ -1579,7 +1579,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Shadow')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .shadow Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .shadow Yoks_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.shadow')) {
@@ -1599,7 +1599,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   //Generator font
   if (text.includes('.Fontgen')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .fontgen Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .fontgen Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes(".fontgen")) {
     const teks = text.replace(/.fontgen /, "")
@@ -1667,39 +1667,6 @@ Zulu = zu` , MessageType.text, { quoted: m });
         })
     }
   }
-
-  //Pict to sticker
-  if (text.includes('.Stiker')) {
-    conn.sendMessage(id, 'Silakan ulangi dengan mengirim foto dengan caption .stiker', MessageType.text, { quoted: m });
-  }
-  if (messageType == 'imageMessage') {
-    let caption = imageMessage.caption.toLocaleLowerCase()
-    const buffer = await conn.downloadMediaMessage(m) // to decrypt & use as a buffer
-    if (caption == '.stiker') {
-      const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
-
-      const
-        {
-          exec
-        } = require("child_process");
-      exec('cwebp -q 50 ' + stiker + ' -o temp/' + jam + '.webp', (error, stdout, stderr) => {
-        let stik = fs.readFileSync('temp/' + jam + '.webp')
-        conn.sendMessage(id, stik, MessageType.sticker, { quoted: m })
-      });
-    }
-    if (caption == '.sticker') {
-      const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
-      const
-        {
-          exec
-        } = require("child_process");
-      exec('cwebp -q 50 ' + stiker + ' -o temp/' + jam + '.webp', (error, stdout, stderr) => {
-        let stik = fs.readFileSync('temp/' + jam + '.webp')
-        conn.sendMessage(id, stik, MessageType.sticker, { quoted: m })
-      });
-    }
-  }
-
   //Pantun
   if (messageType === MessageType.text) {
     let is = m.message.conversation.toLocaleLowerCase()
@@ -1837,7 +1804,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
   //Font bapack
   if (text.includes('.Alay')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .alay Lexa sayang udan_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .alay Yoks sayang udan_', MessageType.text, { quoted: m });
   }
   if (text.includes(".alay")) {
     const alay = text.split(".alay")[1]
@@ -2048,7 +2015,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   //Stalker instagram
   if (text.includes('.Stalk')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .stalk @Lexadan_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .stalk @Yoksdan_', MessageType.text, { quoted: m });
   }
   if (text.includes(".stalk")) {
     const sons = text.replace(/.stalk /, "")
@@ -2109,7 +2076,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   //Nama ninja
   if (text.includes('.Namae')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .namae Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .namae Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes(".namae")) {
     const teks = text.replace(/.namae /, "")
@@ -2200,7 +2167,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   //Text to pict
   if (text.includes('.Logopornhub')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .logopornhub Lexa/nime_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .logopornhub Yoks/nime_', MessageType.text, { quoted: m });
   }
   if (text.includes('.logopornhub')) {
     var porn = text.split(".logopornhub ")[1];
@@ -2219,7 +2186,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   if (text.includes('.Ninja')) {
 
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ninja Lexa/nime_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ninja Yoks/nime_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.ninja')) {
@@ -2238,7 +2205,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Wolf')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .wolf Lexa/nime_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .wolf Yoks/nime_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.wolf')) {
@@ -2257,7 +2224,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Lion')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .lion Lexa/nime_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .lion Yoks/nime_', MessageType.text, { quoted: m });
   }
   if (text.includes('.lion')) {
     var porn = text.split(".lion ")[1];
@@ -2275,7 +2242,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Glitch')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .glitch Lexa/nime_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .glitch Yoks/nime_', MessageType.text, { quoted: m });
   }
   if (text.includes('.glitch')) {
     var porn = text.split(".glitch ")[1];
@@ -2293,7 +2260,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Joker')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .joker Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .joker Yoks_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.joker')) {
@@ -2311,7 +2278,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Blood')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .blood Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .blood Yoks_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.blood')) {
@@ -2329,7 +2296,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Water')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .water Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .water Yoks_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.water')) {
@@ -2361,7 +2328,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Neon')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon2 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon2 Yoks_', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.neon1')) {
@@ -2379,7 +2346,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Snow')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Snow Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Snow Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.snow')) {
     const teks = text.replace(/.snow /, "")
@@ -2397,7 +2364,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   //Quotes maker
   if (text.includes('.Kata')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .kata matamu indah bagai pelangi/Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .kata matamu indah bagai pelangi/Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes('.kata')) {
     const gh = text.split(".kata ")[1];
@@ -2466,7 +2433,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   //Get zodiak
   if (text.includes('.Getzodiak')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .getzodiak Lexa & 09-09-2009_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .getzodiak Yoks & 09-09-2009_', MessageType.text, { quoted: m });
   }
   if (text.includes('.getzodiak')) {
     const gh = text.split(".getzodiak ")[1];
@@ -2506,7 +2473,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
 
   //Primbon kecocokan berdasarkan nama
   if (text.includes('.Couple')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .couple Lexa & udan_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .couple Yoks & udan_', MessageType.text, { quoted: m });
   }
   if (text.includes('.couple')) {
     const gh = text.split(".couple ")[1];
@@ -2520,7 +2487,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
   //Primbon arti nama
   if (text.includes('.Arti')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .arti Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .arti Yoks_', MessageType.text, { quoted: m });
   }
   if (text.includes(".arti")) {
     const teks = text.replace(/.arti /, "")
@@ -2599,7 +2566,7 @@ _Ex artinya contoh_͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏�
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`,
       contextInfo: { mentionedJid: [nomor] }
     }
@@ -2636,7 +2603,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2665,7 +2632,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2690,7 +2657,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2729,7 +2696,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2742,65 +2709,65 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║───────〘  *Text* 〙──────
 ╠════════════════════
 ╠≽ *.Kata (quotes/author)*
-╠ _Ex = .Kata Aku cinta dia/Lexa_ 
+╠ _Ex = .Kata Aku cinta dia/Yoks_ 
 ╠≽ *.Logopornhub (teks1/teks2)*
-╠ _Ex : .Logopornhub Lexa/nime_
+╠ _Ex : .Logopornhub Yoks/nime_
 ╠≽ *.Lion (teks1/teks2)*
-╠ _Ex : .Lion Lexa/nime_
+╠ _Ex : .Lion Yoks/nime_
 ╠≽ *.Ninja (teks1/teks2)*
-╠ _Ex : .Ninja Lexa/nime_
+╠ _Ex : .Ninja Yoks/nime_
 ╠≽ *.Joker (teks1/teks2)*
-╠ _Ex : .Joker Lexa/nime_
+╠ _Ex : .Joker Yoks/nime_
 ╠≽ *.Glitch (teks1/teks2)*
-╠ _Ex : .Glich Lexa/nime_
+╠ _Ex : .Glich Yoks/nime_
 ╠≽ *.Wolf (teks1/teks2)*
-╠ _Ex : .Wolf Lexa/nime_
+╠ _Ex : .Wolf Yoks/nime_
 ╠≽ *.Snow (teks)*
-╠ _Ex : .Snow Lexa_
+╠ _Ex : .Snow Yoks_
 ╠≽ *.Neon1 (teks)*
-╠ _Ex : .Neon1 Lexa_
+╠ _Ex : .Neon1 Yoks_
 ╠≽ *.Neon2 (teks)*
-╠ _Ex : .Neon2 Lexa_
+╠ _Ex : .Neon2 Yoks_
 ╠≽ *.Neon3d (teks)*
-╠ _Ex : .Neon3d Lexa_
+╠ _Ex : .Neon3d Yoks_
 ╠≽ *.Neon4 (teks)*
-╠ _Ex : .neon4 Lexa_
+╠ _Ex : .neon4 Yoks_
 ╠≽ *.Neon5 (teks)*
-╠ _Ex : .neon5 Lexa_
+╠ _Ex : .neon5 Yoks_
 ╠≽ *.Snow (teks)*
-╠ _Ex : .Snow Lexa_
+╠ _Ex : .Snow Yoks_
 ╠≽ *.Coding (teks)*
-╠ _Ex : .Coding Lexa_
+╠ _Ex : .Coding Yoks_
 ╠≽ *.Thunder (teks)*
-╠ _Ex : .Thunder Lexa_
+╠ _Ex : .Thunder Yoks_
 ╠≽ *.Holo (teks)*
-╠ _Ex : .Holo Lexa_
+╠ _Ex : .Holo Yoks_
 ╠≽ *.Blood (teks)*
-╠ _Ex : .Blood Lexa_
+╠ _Ex : .Blood Yoks_
 ╠≽ *.Water (teks)*
-╠ _Ex : .Water Lexa_
+╠ _Ex : .Water Yoks_
 ╠≽ *.Old (teks)*
-╠ _Ex : .Old Lexa_
+╠ _Ex : .Old Yoks_
 ╠≽ *.Balon (teks)*
-╠ _Ex : .Balon Lexa_
+╠ _Ex : .Balon Yoks_
 ╠≽ *.Metal (teks)*
-╠ _Ex : .Metal Lexa_
+╠ _Ex : .Metal Yoks_
 ╠≽ *.Sand1 (teks)*
-╠ _Ex : .Sand1 Lexa_
+╠ _Ex : .Sand1 Yoks_
 ╠≽ *.Sand2 (teks)*
-╠ _Ex : .Sand2 Lexa_
+╠ _Ex : .Sand2 Yoks_
 ╠≽ *.Sand3 (teks)*
-╠ _Ex : .Sand3 Lexa_
+╠ _Ex : .Sand3 Yoks_
 ╠≽ *.Sand4 (teks)*
-╠ _Ex : .Sand4 Lexa_
+╠ _Ex : .Sand4 Yoks_
 ╠≽ *.Sky (teks)*
-╠ _Ex : .Sky Lexa_
+╠ _Ex : .Sky Yoks_
 ╠≽ *.Cloud (teks)*
-╠ _Ex : .Cloud Lexa_
+╠ _Ex : .Cloud Yoks_
 ╠≽ *.Blackpink (teks)*
-╠ _Ex : .Blackpink Lexa_
+╠ _Ex : .Blackpink Yoks_
 ╠≽ *.Fontgen (teks)*
-╠ _Ex : .Fontgen Lexa_
+╠ _Ex : .Fontgen Yoks_
 ╠════════════════════
 ║──────── *${BotName}* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
@@ -2808,7 +2775,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2821,51 +2788,51 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║───────〘  *Text* 〙──────
 ╠════════════════════
 ╠≽ *.Bit8 (text/text)*
-╠ _Ex = .Bit8 Lexa/nime_ 
+╠ _Ex = .Bit8 Yoks/nime_ 
 ╠≽ *.Pubg (teks1/teks2)*
-╠ _Ex : .Pubg Lexa/nime_
+╠ _Ex : .Pubg Yoks/nime_
 ╠≽ *.Batllef (teks1/teks2)*
-╠ _Ex : .Battlef Lexa/nime_
+╠ _Ex : .Battlef Yoks/nime_
 ╠≽ *.Shadow (teks)*
-╠ _Ex : .Shadow Lexa_
+╠ _Ex : .Shadow Yoks_
 ╠≽ *.Paper1 (teks)*
-╠ _Ex : .Paper Lexa_
+╠ _Ex : .Paper Yoks_
 ╠≽ *.Paper2 (teks)*
-╠ _Ex : .Paper Lexa_
+╠ _Ex : .Paper Yoks_
 ╠≽ *.Coffee (teks)*
-╠ _Ex : .coffee Lexa_
+╠ _Ex : .coffee Yoks_
 ╠≽ *.Block (teks)*
-╠ _Ex : .Block Lexa_
+╠ _Ex : .Block Yoks_
 ╠≽ *.Heart (teks)*
-╠ _Ex : .Heart Lexa_
+╠ _Ex : .Heart Yoks_
 ╠≽ *.Grass (teks)*
-╠ _Ex : .Grass Lexa_
+╠ _Ex : .Grass Yoks_
 ╠≽ *.Ocean (teks)*
-╠ _Ex : .Ocean Lexa_
+╠ _Ex : .Ocean Yoks_
 ╠≽ *.Board (teks)*
-╠ _Ex : .Board Lexa_
+╠ _Ex : .Board Yoks_
 ╠≽ *.Mwolf (teks)*
-╠ _Ex : .Mwolf Lexa_
+╠ _Ex : .Mwolf Yoks_
 ╠≽ *.Mglow (teks)*
-╠ _Ex : .Mglow Lexa_
+╠ _Ex : .Mglow Yoks_
 ╠≽ *.Hpotter (teks)*
-╠ _Ex : .Hpotter Lexa_
+╠ _Ex : .Hpotter Yoks_
 ╠≽ *.Cfire (teks)*
-╠ _Ex : .Cfire Lexa_
+╠ _Ex : .Cfire Yoks_
 ╠≽ *.Wface1 (teks)*
-╠ _Ex : .Wface1 Lexa_
+╠ _Ex : .Wface1 Yoks_
 ╠≽ *.Wface2 (teks)*
-╠ _Ex : .Wface2 Lexa_
+╠ _Ex : .Wface2 Yoks_
 ╠≽ *.Battlef (teks)*
-╠ _Ex : .Battlef Lexa_
+╠ _Ex : .Battlef Yoks_
 ╠≽ *.Lol (teks)*
-╠ _Ex : .Lol Lexa_
+╠ _Ex : .Lol Yoks_
 ╠≽ *.Csgo (teks)*
-╠ _Ex : .Csgo Lexa_
+╠ _Ex : .Csgo Yoks_
 ╠≽ *.Tahta (teks)*
-╠ _Ex : .Tahta Lexa_
+╠ _Ex : .Tahta Yoks_
 ╠≽ *.Owatch (teks)*
-╠ _Ex : .Owatch Lexa_
+╠ _Ex : .Owatch Yoks_
 ╠════════════════════
 ║──────── *${BotName}* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
@@ -2873,7 +2840,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2910,7 +2877,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2922,14 +2889,14 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ╔════════════════════
 ║──────〘  *Tools* 〙───────
 ╠════════════════════
-╠≽️ *.Stiker*
+╠≽️ *.Stiker* 〘  *EMROR* 〙
 ╠ _Kirim foto ketik .stiker_ 
 ╠≽️ *.Nulis*
-╠ _Ex = .Nulis aku cinta Lexa_ 
+╠ _Ex = .Nulis aku cinta Yoks_ 
 ╠≽️ *.Ocr*
 ╠ _Mencopy kalimat di gambar_ 
 ╠≽️ *.Stalk (username ig)*
-╠ _Ex = .Stalk @Lexa_ 
+╠ _Ex = .Stalk @Yoks_ 
 ╠≽️ *.Shortlink (link)*
 ╠ _Pemendek link_ 
 ╠≽️ *.ssweb (link)*
@@ -2941,7 +2908,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2954,11 +2921,11 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║─────〘  *Primbon* 〙──────
 ╠════════════════════
 ╠≽️ *.Arti (Namamu)*
-╠ _Ex = .Arti Lexa_ 
+╠ _Ex = .Arti Yoks_ 
 ╠≽️ *.Couple (Namamu & doi)*
-╠ _Ex = .Couple Lexa & udan_ 
+╠ _Ex = .Couple Yoks & udan_ 
 ╠≽️ *.Getzodiak (Nama & tgl)
-╠ _Ex : .Getzodiak Lexa & 09-09-2002_ 
+╠ _Ex : .Getzodiak Yoks & 09-09-2002_ 
 ╠≽️ *.Zodiak (Nama zodiak)*
 ╠ _Ex : .Zodiak libra_ 
 ╠≽️ *.Mimpi (teks)*
@@ -2970,7 +2937,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════ `, MessageType.text, { quoted: m });
   }
 
@@ -2997,7 +2964,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ╠≽️ *Nime (nama anime)*
 ╠ _Ex : .Nime naruto_ 
 ╠≽️ *.Namae (Teks)*
-╠ _Ex : .Namae Lexa_ 
+╠ _Ex : .Namae Yoks_ 
 ╠≽️ *.Puisi1*
 ╠ _Random puisi_ 
 ╠≽️ *.Puisi2*
@@ -3017,7 +2984,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ╠≽️ *.Chatprank (teks1/teks2)*
 ╠ _Ex : .Chatprank Hai bang/sat_ 
 ╠≽️ *.Alay (teks)*
-╠ _Ex : .Alay hai Lexa_ 
+╠ _Ex : .Alay hai Yoks_ 
 ╠════════════════════
 ║──────── *${BotName}* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
@@ -3025,7 +2992,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -3055,7 +3022,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════ `, MessageType.text, { quoted: m });
   }
 
@@ -3090,7 +3057,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ *丹乃Σㄥ* ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
